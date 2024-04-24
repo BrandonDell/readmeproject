@@ -22,7 +22,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `
   # ${data.title}
-  // ${renderLicenseBadge(data.license)}
+  ${renderLicenseBadge(data.license)}
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
@@ -58,12 +58,5 @@ function generateMarkdown(data) {
 }
 module.exports = generateMarkdown;
 
-// Need help:
-// 1) files-added gitignore after starting `node_modules/` and `.DS_Store/` and npm dependencies and I do have a .DS_Store in Github
-// 1) links stopped working
-// 2) How many license's shoud be listed/How many Readme's?
 
-// Todo's:
-// 1) THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-// 2) email link
-// 3) make video presentation 
+
