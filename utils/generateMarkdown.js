@@ -14,47 +14,47 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   return `
-    ## License
-    This project is licensed with ${license}`;
+  ## License
+  This project is licensed with ${license}`;
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-    # ${data.title}
-    // ${renderLicenseBadge(data.license)}
-    ## Table of Contents
-    * [Description](#description)
-    * [Installation](#installation)
-    * [Usage](#usage)
-    ${renderLicenseLink(data.license)}
-    * [Contributing](#contributing)
-    * [Test](#test)
-    * [Questions](#questions)
+  # ${data.title}
+  // ${renderLicenseBadge(data.license)}
+  ## Table of Contents
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  ${renderLicenseLink(data.license)}
+  * [Contributing](#contributing)
+  * [Test](#test)
+  * [Questions](#questions)
       
-    ## Description
-    ${data.description}
+  ## Description
+  ${data.description}
 
-    ## Installation 
-    ${data.installation}
+  ## Installation 
+  ${data.installation}
     
-    ## Usage 
-    ${data.usage}
+  ## Usage 
+  ${data.usage}
     
-    ${renderLicenseSection(data.license)}
+  ${renderLicenseSection(data.license)}
     
-    ## Contributing
-    ${data.contributing}
+  ## Contributing
+  ${data.contributing}
     
-    ## Test 
-    ${data.test}
+  ## Test 
+  ${data.test}
     
-    ## Questions
+  ## Questions
     
-    If you would like to reference my GitHub profile please click on https://github.com/${data.gitHubQuestion}
+  If you would like to reference my GitHub profile please click on https://github.com/${data.gitHubQuestion}
     
-    If you have any further questions please feel free to email me at ${data.emailQuestion}
-    `;
+  If you have any further questions please feel free to email me at ${data.emailQuestion}
+  `;
 }
 module.exports = generateMarkdown;
 
