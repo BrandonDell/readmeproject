@@ -1,5 +1,6 @@
-# 1 ![license](https://img.shields.io/badge/license-MIT-blue)
-      
+
+    # 1
+   
     ## Table of Contents
     * [Description](#description)
     * [Installation](#installation)
@@ -30,6 +31,7 @@
     
     ## Questions
     
-    If you would like to reference my GitHub account please click on <undefined>
+    If you would like to reference my GitHub profile please click on https://github.com/bd
     
-    If you have any further questions please feel free to email me at <bdell@gmail.com>
+    If you have any further questions please feel free to email me at bd
+    
